@@ -1,0 +1,54 @@
+excluded:
+  - Pods
+  - Tests/SwiftLintFrameworkTests/Resources
+  - Carthage
+
+opt_in_rules:
+  - empty_count
+  - file_header
+  - explicit_init
+  - closure_spacing
+  - overridden_super_call
+  - redundant_nil_coalescing
+  - nimble_operator
+  - attributes
+  - operator_usage_whitespace
+  - closure_end_indentation
+  - first_where
+  - sorted_imports
+  - object_literal
+  - number_separator
+  - prohibited_super_call
+  - fatal_error_message
+  - identifier_name
+
+file_header:
+  required_pattern: |
+                    \/\/
+                    \/\/  .*?\.swift
+                    \/\/  SwiftLint
+                    \/\/
+                    \/\/  Created by .*? on \d{1,2}\/\d{1,2}\/\d{2}\.
+                    \/\/  Copyright © \d{4} Realm\. All rights reserved\.
+                    \/\/
+file_length: 600
+type_body_length: 600
+cyclomatic_complexity: 21
+
+#line_length:
+#    warning: 144
+#    ignores_comments: true
+
+number_separator:
+  minimum_length: 5
+
+force_cast: error
+force_try: error
+
+disabled_rules:
+  - leading_whitespace
+  - trailing_whitespace
+  - file_header
+  - variable_name
+  - line_length
+  - superfluous_disable_command
