@@ -6,9 +6,9 @@
 //  Copyright © 2019 Hanuman. All rights reserved.
 //
 
+import ActionSheetPicker_3_0
 import Foundation
 import UIKit
-import ActionSheetPicker_3_0
 
 protocol FilterViewControllerDelegate: class {
     func applyFilter(with region: String?, country: String?, year: String?)
@@ -52,7 +52,7 @@ class FilterViewController: UIViewController, AlertDisplayer {
     }
 
     @IBAction func year(sender: UIButton) {
-        let yearPicker = ActionSheetStringPicker(title: "Year", rows: yearArray, initialSelection: 0, doneBlock: { [weak self] (_, index, value) in
+        let yearPicker = ActionSheetStringPicker(title: "Year", rows: yearArray, initialSelection: 0, doneBlock: { [weak self] (_, _, value) in
             guard let strongSelf = self else { return }
             
             guard let yearInt = value as? Int else { return }
@@ -65,4 +65,3 @@ class FilterViewController: UIViewController, AlertDisplayer {
     }
 
 }
-

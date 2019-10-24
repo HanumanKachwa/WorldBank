@@ -32,7 +32,7 @@ class WorldBankUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         app.navigationBars["WorldBank"].buttons["Filter"].tap()
-        app.otherElements.containing(.navigationBar, identifier:"WorldBank.FilterView").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 1).buttons["Select"].tap()
+        app.otherElements.containing(.navigationBar, identifier: "WorldBank.FilterView").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 1).buttons["Select"].tap()
         app/*@START_MENU_TOKEN@*/.pickerWheels["2019"]/*[[".pickers.pickerWheels[\"2019\"]",".pickerWheels[\"2019\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.swipeUp()
         app.toolbars["Toolbar"].buttons["Done"].tap()
         app.buttons["Apply"].tap()

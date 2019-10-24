@@ -268,6 +268,7 @@
 				BAE2F3E023606E2B0059D833 /* Frameworks */,
 				BAE2F3E123606E2B0059D833 /* Resources */,
 				9CCFB1E78CF9CAD06B71CAFF /* [CP] Embed Pods Frameworks */,
+				BA70B6492361570A0038109F /* Swiftlint Run Script */,
 			);
 			buildRules = (
 			);
@@ -423,6 +424,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldBank/Pods-WorldBank-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		BA70B6492361570A0038109F /* Swiftlint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

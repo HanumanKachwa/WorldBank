@@ -11,4 +11,5 @@ target 'WorldBank' do
     pod 'CocoaLumberjack'
     pod 'SVProgressHUD'
     pod 'ActionSheetPicker-3.0'
+    pod 'SwiftLint', '0.32.0'
 end

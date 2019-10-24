@@ -37,6 +37,3 @@ enum PagedCountryResponse: Codable {
 }
 
 typealias CountryData = [PagedCountryResponse]
-
-
-

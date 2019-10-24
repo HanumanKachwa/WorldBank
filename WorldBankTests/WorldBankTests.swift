@@ -6,8 +6,8 @@
 //  Copyright © 2019 Hanuman. All rights reserved.
 //
 
-import XCTest
 @testable import WorldBank
+import XCTest
 
 class WorldBankTests: XCTestCase {
 

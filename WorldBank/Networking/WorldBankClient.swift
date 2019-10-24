@@ -27,7 +27,7 @@ final class WorldBankClient {
         // 3
         let encodedURLRequest = urlRequest.encode(with: parameters)
 
-        URLSession.shared.countryTask(with: encodedURLRequest, completionHandler: { (country, response, error) in
+        URLSession.shared.countryTask(with: encodedURLRequest, completionHandler: { (country, response, _) in
             guard
                 let httpResponse = response as? HTTPURLResponse,
                 httpResponse.hasSuccessStatusCode,

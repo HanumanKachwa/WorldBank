@@ -58,7 +58,9 @@ extension MasterViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiers.list, for: indexPath) as! CountryTableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiers.list, for: indexPath) as? CountryTableViewCell else {
+            return UITableViewCell()
+        }
         // 2
         if isLoadingCell(for: indexPath) {
             cell.configure(with: .none)
@@ -109,7 +111,7 @@ extension MasterViewController: WorldBankViewModelDelegate {
         
         let title = "Warning".localizedString
         let action = UIAlertAction(title: "OK".localizedString, style: .default)
-        displayAlert(with: title , message: reason, actions: [action])
+        displayAlert(with: title, message: reason, actions: [action])
     }
 }
 
@@ -124,5 +126,3 @@ private extension MasterViewController {
         return Array(indexPathsIntersection)
     }
 }
-
-
