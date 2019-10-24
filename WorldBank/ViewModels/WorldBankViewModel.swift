@@ -19,7 +19,7 @@ final class WorldBankViewModel {
     private var countries: [Country] = []
     var currentPage = 1
     private var total = 0
-    private var isFetchInProgress = false
+    var isFetchInProgress = false
     
     let client = WorldBankClient()
     var request: CountryRequest
