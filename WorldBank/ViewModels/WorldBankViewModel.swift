@@ -17,7 +17,7 @@ final class WorldBankViewModel {
     private weak var delegate: WorldBankViewModelDelegate?
     
     private var countries: [Country] = []
-    private var currentPage = 1
+    var currentPage = 1
     private var total = 0
     private var isFetchInProgress = false
     
@@ -46,7 +46,7 @@ final class WorldBankViewModel {
         countries = []
     }
     
-    init(delegate: WorldBankViewModelDelegate) {
+    init(delegate: WorldBankViewModelDelegate?) {
         self.request = CountryRequest.request(with: nil, country: nil, year: "2018")
         self.delegate = delegate
     }

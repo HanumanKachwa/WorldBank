@@ -1,0 +1,608 @@
+[{
+		"page": 1,
+		"pages": 312,
+		"per_page": "50",
+		"total": 15576
+	},
+	[{
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "1796358749934.16",
+		"decimal": "0",
+		"date": "2009"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "2078823967037.02",
+		"decimal": "0",
+		"date": "2008"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "1638213879955.77",
+		"decimal": "0",
+		"date": "2007"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "1404653310998.68",
+		"decimal": "0",
+		"date": "2006"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "1185142919458.18",
+		"decimal": "0",
+		"date": "2005"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "964327345387.531",
+		"decimal": "0",
+		"date": "2004"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "823341300650.195",
+		"decimal": "0",
+		"date": "2003"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "729231446595.318",
+		"decimal": "0",
+		"date": "2002"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "723449066469.795",
+		"decimal": "0",
+		"date": "2001"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "735188056517.167",
+		"decimal": "0",
+		"date": "2000"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "644050661585.064",
+		"decimal": "0",
+		"date": "1999"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "591681589857.127",
+		"decimal": "0",
+		"date": "1998"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "613432360792.61",
+		"decimal": "0",
+		"date": "1997"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "578398811758.025",
+		"decimal": "0",
+		"date": "1996"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "523928956600.448",
+		"decimal": "0",
+		"date": "1995"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "487661715245.43",
+		"decimal": "0",
+		"date": "1994"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "477133962042.005",
+		"decimal": "0",
+		"date": "1993"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "471671634103.682",
+		"decimal": "0",
+		"date": "1992"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "440649432072.993",
+		"decimal": "0",
+		"date": "1991"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "446901684420.875",
+		"decimal": "0",
+		"date": "1990"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "322859532931.739",
+		"decimal": "0",
+		"date": "1989"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "307889062413.156",
+		"decimal": "0",
+		"date": "1988"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "313040206369.594",
+		"decimal": "0",
+		"date": "1987"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "293623508043.854",
+		"decimal": "0",
+		"date": "1986"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "307598042505.916",
+		"decimal": "0",
+		"date": "1985"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "310748337925.361",
+		"decimal": "0",
+		"date": "1984"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "306342010686.603",
+		"decimal": "0",
+		"date": "1983"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "326100368169.541",
+		"decimal": "0",
+		"date": "1982"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "347641502767.773",
+		"decimal": "0",
+		"date": "1981"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "337194058933.763",
+		"decimal": "0",
+		"date": "1980"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "248663012539.485",
+		"decimal": "0",
+		"date": "1979"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "183716163415.297",
+		"decimal": "0",
+		"date": "1978"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "167282389074.525",
+		"decimal": "0",
+		"date": "1977"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "145248809080.621",
+		"decimal": "0",
+		"date": "1976"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "116892827867.675",
+		"decimal": "0",
+		"date": "1975"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "105527467635.091",
+		"decimal": "0",
+		"date": "1974"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "55776586530.5686",
+		"decimal": "0",
+		"date": "1973"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "44066761651.0649",
+		"decimal": "0",
+		"date": "1972"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "36946286419.8104",
+		"decimal": "0",
+		"date": "1971"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "31922432897.0609",
+		"decimal": "0",
+		"date": "1970"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "28342519494.0643",
+		"decimal": "0",
+		"date": "1969"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": "25800420222.6921",
+		"decimal": "0",
+		"date": "1968"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1967"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1966"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1965"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1964"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1963"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1962"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1961"
+	}, {
+		"indicator": {
+			"id": "NY.GDP.MKTP.CD",
+			"value": "GDP (current US$)"
+		},
+		"country": {
+			"id": "1A",
+			"value": "Arab World"
+		},
+		"value": null,
+		"decimal": "0",
+		"date": "1960"
+	}]
+]

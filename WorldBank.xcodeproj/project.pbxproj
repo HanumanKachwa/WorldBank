@@ -34,6 +34,8 @@
 		BA70B645236152D80038109F /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B63B236134220038109F /* URLSession.swift */; };
 		BA70B646236152E10038109F /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B633236127330038109F /* Pager.swift */; };
 		BA70B647236152E10038109F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B6352361274A0038109F /* Country.swift */; };
+		BA8433F3236161730051D14E /* indicators.json in Resources */ = {isa = PBXBuildFile; fileRef = BA8433F2236161730051D14E /* indicators.json */; };
+		BA8433F4236164050051D14E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58923610AB70038109F /* String+Extensions.swift */; };
 		BAE2F3E723606E2B0059D833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F3E623606E2B0059D833 /* AppDelegate.swift */; };
 		BAE2F3E923606E2B0059D833 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F3E823606E2B0059D833 /* MasterViewController.swift */; };
 		BAE2F3EE23606E2B0059D833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE2F3EC23606E2B0059D833 /* Main.storyboard */; };
@@ -77,6 +79,7 @@
 		BA70B6352361274A0038109F /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		BA70B63723612FF00038109F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		BA70B63B236134220038109F /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		BA8433F2236161730051D14E /* indicators.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = indicators.json; sourceTree = "<group>"; };
 		BAE2F3E323606E2B0059D833 /* WorldBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE2F3E623606E2B0059D833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAE2F3E823606E2B0059D833 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +136,7 @@
 		BA70B57B236109500038109F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				BA8433F1236161340051D14E /* Stubs */,
 				BA70B57C236109640038109F /* DataResponseError.swift */,
 				BA70B57E236109790038109F /* HTTPURLResponse.swift */,
 				BA70B580236109890038109F /* CountryRequest.swift */,
@@ -178,6 +182,14 @@
 				BAE2F3EC23606E2B0059D833 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BA8433F1236161340051D14E /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				BA8433F2236161730051D14E /* indicators.json */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 		BAE2F3DA23606E2B0059D833 = {
@@ -365,6 +377,7 @@
 			files = (
 				BAE2F3F323606E2D0059D833 /* LaunchScreen.storyboard in Resources */,
 				BAE2F3F023606E2D0059D833 /* Assets.xcassets in Resources */,
+				BA8433F3236161730051D14E /* indicators.json in Resources */,
 				BAE2F3EE23606E2B0059D833 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA70B63E236152D80038109F /* DataResponseError.swift in Sources */,
+				BA8433F4236164050051D14E /* String+Extensions.swift in Sources */,
 				BA70B641236152D80038109F /* PagedCountryResponse.swift in Sources */,
 				BA70B645236152D80038109F /* URLSession.swift in Sources */,
 				BAE2F3FE23606E2D0059D833 /* WorldBankTests.swift in Sources */,
