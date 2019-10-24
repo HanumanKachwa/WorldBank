@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DEA00B98D1D05A4A9A76E0C /* Pods_WorldBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90723F968777EADF1FA2B9D /* Pods_WorldBank.framework */; };
+		BA70B57D236109640038109F /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B57C236109640038109F /* DataResponseError.swift */; };
+		BA70B57F236109790038109F /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B57E236109790038109F /* HTTPURLResponse.swift */; };
+		BA70B581236109890038109F /* CountryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B580236109890038109F /* CountryRequest.swift */; };
+		BA70B583236109C90038109F /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B582236109C90038109F /* URLRequest.swift */; };
+		BA70B58523610A2E0038109F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58423610A2E0038109F /* Result.swift */; };
+		BA70B58723610A490038109F /* WorldBankClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58623610A490038109F /* WorldBankClient.swift */; };
+		BA70B58A23610AB70038109F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58923610AB70038109F /* String+Extensions.swift */; };
+		BA70B58C23610ACD0038109F /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58B23610ACD0038109F /* AlertDisplayer.swift */; };
+		BA70B59023610BC80038109F /* WorldBankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58F23610BC80038109F /* WorldBankViewModel.swift */; };
+		BA70B5F323610EC70038109F /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B5F223610EC70038109F /* ColorPalette.swift */; };
+		BA70B5F623610F390038109F /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B5F523610F390038109F /* CountryTableViewCell.swift */; };
+		BA70B634236127330038109F /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B633236127330038109F /* Pager.swift */; };
+		BA70B6362361274A0038109F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B6352361274A0038109F /* Country.swift */; };
+		BA70B63823612FF00038109F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B63723612FF00038109F /* FilterViewController.swift */; };
+		BA70B63C236134220038109F /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B63B236134220038109F /* URLSession.swift */; };
+		BA70B63D236152B10038109F /* WorldBankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58F23610BC80038109F /* WorldBankViewModel.swift */; };
+		BA70B63E236152D80038109F /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B57C236109640038109F /* DataResponseError.swift */; };
+		BA70B63F236152D80038109F /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B57E236109790038109F /* HTTPURLResponse.swift */; };
+		BA70B640236152D80038109F /* CountryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B580236109890038109F /* CountryRequest.swift */; };
+		BA70B641236152D80038109F /* PagedCountryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F4162360F9680059D833 /* PagedCountryResponse.swift */; };
+		BA70B642236152D80038109F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58423610A2E0038109F /* Result.swift */; };
+		BA70B643236152D80038109F /* WorldBankClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B58623610A490038109F /* WorldBankClient.swift */; };
+		BA70B644236152D80038109F /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B582236109C90038109F /* URLRequest.swift */; };
+		BA70B645236152D80038109F /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B63B236134220038109F /* URLSession.swift */; };
+		BA70B646236152E10038109F /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B633236127330038109F /* Pager.swift */; };
+		BA70B647236152E10038109F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B6352361274A0038109F /* Country.swift */; };
+		BAE2F3E723606E2B0059D833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F3E623606E2B0059D833 /* AppDelegate.swift */; };
+		BAE2F3E923606E2B0059D833 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F3E823606E2B0059D833 /* MasterViewController.swift */; };
+		BAE2F3EE23606E2B0059D833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE2F3EC23606E2B0059D833 /* Main.storyboard */; };
+		BAE2F3F023606E2D0059D833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE2F3EF23606E2D0059D833 /* Assets.xcassets */; };
+		BAE2F3F323606E2D0059D833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE2F3F123606E2D0059D833 /* LaunchScreen.storyboard */; };
+		BAE2F3FE23606E2D0059D833 /* WorldBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F3FD23606E2D0059D833 /* WorldBankTests.swift */; };
+		BAE2F40923606E2D0059D833 /* WorldBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F40823606E2D0059D833 /* WorldBankUITests.swift */; };
+		BAE2F4172360F9680059D833 /* PagedCountryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE2F4162360F9680059D833 /* PagedCountryResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE2F3FA23606E2D0059D833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE2F3DB23606E2B0059D833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE2F3E223606E2B0059D833;
+			remoteInfo = WorldBank;
+		};
+		BAE2F40523606E2D0059D833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE2F3DB23606E2B0059D833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE2F3E223606E2B0059D833;
+			remoteInfo = WorldBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA70B57C236109640038109F /* DataResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResponseError.swift; sourceTree = "<group>"; };
+		BA70B57E236109790038109F /* HTTPURLResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponse.swift; sourceTree = "<group>"; };
+		BA70B580236109890038109F /* CountryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryRequest.swift; sourceTree = "<group>"; };
+		BA70B582236109C90038109F /* URLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		BA70B58423610A2E0038109F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BA70B58623610A490038109F /* WorldBankClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldBankClient.swift; sourceTree = "<group>"; };
+		BA70B58923610AB70038109F /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		BA70B58B23610ACD0038109F /* AlertDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
+		BA70B58F23610BC80038109F /* WorldBankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBankViewModel.swift; sourceTree = "<group>"; };
+		BA70B5F223610EC70038109F /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		BA70B5F523610F390038109F /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		BA70B633236127330038109F /* Pager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pager.swift; sourceTree = "<group>"; };
+		BA70B6352361274A0038109F /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		BA70B63723612FF00038109F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		BA70B63B236134220038109F /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		BAE2F3E323606E2B0059D833 /* WorldBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE2F3E623606E2B0059D833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE2F3E823606E2B0059D833 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BAE2F3ED23606E2B0059D833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE2F3EF23606E2D0059D833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE2F3F223606E2D0059D833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE2F3F423606E2D0059D833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE2F3F923606E2D0059D833 /* WorldBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE2F3FD23606E2D0059D833 /* WorldBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBankTests.swift; sourceTree = "<group>"; };
+		BAE2F3FF23606E2D0059D833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE2F40423606E2D0059D833 /* WorldBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE2F40823606E2D0059D833 /* WorldBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBankUITests.swift; sourceTree = "<group>"; };
+		BAE2F40A23606E2D0059D833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE2F4162360F9680059D833 /* PagedCountryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedCountryResponse.swift; sourceTree = "<group>"; };
+		C1DAAF5D0A3D28BF95621E05 /* Pods-WorldBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBank.debug.xcconfig"; path = "Target Support Files/Pods-WorldBank/Pods-WorldBank.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8E5B56B67416BEA06652E1 /* Pods-WorldBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBank.release.xcconfig"; path = "Target Support Files/Pods-WorldBank/Pods-WorldBank.release.xcconfig"; sourceTree = "<group>"; };
+		D90723F968777EADF1FA2B9D /* Pods_WorldBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE2F3E023606E2B0059D833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEA00B98D1D05A4A9A76E0C /* Pods_WorldBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2F3F623606E2D0059D833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2F40123606E2D0059D833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63B061E38A5CA601AD48100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90723F968777EADF1FA2B9D /* Pods_WorldBank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA70B57B236109500038109F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B57C236109640038109F /* DataResponseError.swift */,
+				BA70B57E236109790038109F /* HTTPURLResponse.swift */,
+				BA70B580236109890038109F /* CountryRequest.swift */,
+				BAE2F4162360F9680059D833 /* PagedCountryResponse.swift */,
+				BA70B58423610A2E0038109F /* Result.swift */,
+				BA70B58623610A490038109F /* WorldBankClient.swift */,
+				BA70B582236109C90038109F /* URLRequest.swift */,
+				BA70B63B236134220038109F /* URLSession.swift */,
+				BAE2F4182360F96E0059D833 /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BA70B58823610AAD0038109F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B58B23610ACD0038109F /* AlertDisplayer.swift */,
+				BA70B58923610AB70038109F /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA70B58D23610BA60038109F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B58F23610BC80038109F /* WorldBankViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BA70B5F123610E7F0038109F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B5F223610EC70038109F /* ColorPalette.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BA70B5F423610F2E0038109F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B5F523610F390038109F /* CountryTableViewCell.swift */,
+				BAE2F3EC23606E2B0059D833 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAE2F3DA23606E2B0059D833 = {
+			isa = PBXGroup;
+			children = (
+				BAE2F3E523606E2B0059D833 /* WorldBank */,
+				BAE2F3FC23606E2D0059D833 /* WorldBankTests */,
+				BAE2F40723606E2D0059D833 /* WorldBankUITests */,
+				BAE2F3E423606E2B0059D833 /* Products */,
+				D71D729C006269A6B3E38E70 /* Pods */,
+				A63B061E38A5CA601AD48100 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE2F3E423606E2B0059D833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE2F3E323606E2B0059D833 /* WorldBank.app */,
+				BAE2F3F923606E2D0059D833 /* WorldBankTests.xctest */,
+				BAE2F40423606E2D0059D833 /* WorldBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE2F3E523606E2B0059D833 /* WorldBank */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B5F123610E7F0038109F /* Constants */,
+				BA70B58823610AAD0038109F /* Extensions */,
+				BA70B57B236109500038109F /* Networking */,
+				BA70B58D23610BA60038109F /* ViewModels */,
+				BAE2F3E623606E2B0059D833 /* AppDelegate.swift */,
+				BAE2F3E823606E2B0059D833 /* MasterViewController.swift */,
+				BA70B63723612FF00038109F /* FilterViewController.swift */,
+				BA70B5F423610F2E0038109F /* Views */,
+				BAE2F3EF23606E2D0059D833 /* Assets.xcassets */,
+				BAE2F3F123606E2D0059D833 /* LaunchScreen.storyboard */,
+				BAE2F3F423606E2D0059D833 /* Info.plist */,
+			);
+			path = WorldBank;
+			sourceTree = "<group>";
+		};
+		BAE2F3FC23606E2D0059D833 /* WorldBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE2F3FD23606E2D0059D833 /* WorldBankTests.swift */,
+				BAE2F3FF23606E2D0059D833 /* Info.plist */,
+			);
+			path = WorldBankTests;
+			sourceTree = "<group>";
+		};
+		BAE2F40723606E2D0059D833 /* WorldBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE2F40823606E2D0059D833 /* WorldBankUITests.swift */,
+				BAE2F40A23606E2D0059D833 /* Info.plist */,
+			);
+			path = WorldBankUITests;
+			sourceTree = "<group>";
+		};
+		BAE2F4182360F96E0059D833 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B633236127330038109F /* Pager.swift */,
+				BA70B6352361274A0038109F /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D71D729C006269A6B3E38E70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAAF5D0A3D28BF95621E05 /* Pods-WorldBank.debug.xcconfig */,
+				CF8E5B56B67416BEA06652E1 /* Pods-WorldBank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE2F3E223606E2B0059D833 /* WorldBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE2F40D23606E2D0059D833 /* Build configuration list for PBXNativeTarget "WorldBank" */;
+			buildPhases = (
+				4F6A91B8DF0FF2E734EC9D3D /* [CP] Check Pods Manifest.lock */,
+				BAE2F3DF23606E2B0059D833 /* Sources */,
+				BAE2F3E023606E2B0059D833 /* Frameworks */,
+				BAE2F3E123606E2B0059D833 /* Resources */,
+				9CCFB1E78CF9CAD06B71CAFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldBank;
+			productName = WorldBank;
+			productReference = BAE2F3E323606E2B0059D833 /* WorldBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE2F3F823606E2D0059D833 /* WorldBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE2F41023606E2D0059D833 /* Build configuration list for PBXNativeTarget "WorldBankTests" */;
+			buildPhases = (
+				BAE2F3F523606E2D0059D833 /* Sources */,
+				BAE2F3F623606E2D0059D833 /* Frameworks */,
+				BAE2F3F723606E2D0059D833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE2F3FB23606E2D0059D833 /* PBXTargetDependency */,
+			);
+			name = WorldBankTests;
+			productName = WorldBankTests;
+			productReference = BAE2F3F923606E2D0059D833 /* WorldBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE2F40323606E2D0059D833 /* WorldBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE2F41323606E2D0059D833 /* Build configuration list for PBXNativeTarget "WorldBankUITests" */;
+			buildPhases = (
+				BAE2F40023606E2D0059D833 /* Sources */,
+				BAE2F40123606E2D0059D833 /* Frameworks */,
+				BAE2F40223606E2D0059D833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE2F40623606E2D0059D833 /* PBXTargetDependency */,
+			);
+			name = WorldBankUITests;
+			productName = WorldBankUITests;
+			productReference = BAE2F40423606E2D0059D833 /* WorldBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE2F3DB23606E2B0059D833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Hanuman;
+				TargetAttributes = {
+					BAE2F3E223606E2B0059D833 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BAE2F3F823606E2D0059D833 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BAE2F3E223606E2B0059D833;
+					};
+					BAE2F40323606E2D0059D833 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BAE2F3E223606E2B0059D833;
+					};
+				};
+			};
+			buildConfigurationList = BAE2F3DE23606E2B0059D833 /* Build configuration list for PBXProject "WorldBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE2F3DA23606E2B0059D833;
+			productRefGroup = BAE2F3E423606E2B0059D833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE2F3E223606E2B0059D833 /* WorldBank */,
+				BAE2F3F823606E2D0059D833 /* WorldBankTests */,
+				BAE2F40323606E2D0059D833 /* WorldBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE2F3E123606E2B0059D833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE2F3F323606E2D0059D833 /* LaunchScreen.storyboard in Resources */,
+				BAE2F3F023606E2D0059D833 /* Assets.xcassets in Resources */,
+				BAE2F3EE23606E2B0059D833 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2F3F723606E2D0059D833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2F40223606E2D0059D833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F6A91B8DF0FF2E734EC9D3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CCFB1E78CF9CAD06B71CAFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBank/Pods-WorldBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBank/Pods-WorldBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldBank/Pods-WorldBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE2F3DF23606E2B0059D833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA70B58C23610ACD0038109F /* AlertDisplayer.swift in Sources */,
+				BA70B581236109890038109F /* CountryRequest.swift in Sources */,
+				BAE2F3E923606E2B0059D833 /* MasterViewController.swift in Sources */,
+				BA70B63823612FF00038109F /* FilterViewController.swift in Sources */,
+				BAE2F4172360F9680059D833 /* PagedCountryResponse.swift in Sources */,
+				BA70B5F323610EC70038109F /* ColorPalette.swift in Sources */,
+				BA70B58723610A490038109F /* WorldBankClient.swift in Sources */,
+				BA70B634236127330038109F /* Pager.swift in Sources */,
+				BA70B5F623610F390038109F /* CountryTableViewCell.swift in Sources */,
+				BA70B63C236134220038109F /* URLSession.swift in Sources */,
+				BA70B58523610A2E0038109F /* Result.swift in Sources */,
+				BA70B58A23610AB70038109F /* String+Extensions.swift in Sources */,
+				BA70B57F236109790038109F /* HTTPURLResponse.swift in Sources */,
+				BA70B59023610BC80038109F /* WorldBankViewModel.swift in Sources */,
+				BA70B6362361274A0038109F /* Country.swift in Sources */,
+				BA70B583236109C90038109F /* URLRequest.swift in Sources */,
+				BA70B57D236109640038109F /* DataResponseError.swift in Sources */,
+				BAE2F3E723606E2B0059D833 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2F3F523606E2D0059D833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA70B63E236152D80038109F /* DataResponseError.swift in Sources */,
+				BA70B641236152D80038109F /* PagedCountryResponse.swift in Sources */,
+				BA70B645236152D80038109F /* URLSession.swift in Sources */,
+				BAE2F3FE23606E2D0059D833 /* WorldBankTests.swift in Sources */,
+				BA70B647236152E10038109F /* Country.swift in Sources */,
+				BA70B643236152D80038109F /* WorldBankClient.swift in Sources */,
+				BA70B63F236152D80038109F /* HTTPURLResponse.swift in Sources */,
+				BA70B642236152D80038109F /* Result.swift in Sources */,
+				BA70B644236152D80038109F /* URLRequest.swift in Sources */,
+				BA70B63D236152B10038109F /* WorldBankViewModel.swift in Sources */,
+				BA70B640236152D80038109F /* CountryRequest.swift in Sources */,
+				BA70B646236152E10038109F /* Pager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2F40023606E2D0059D833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE2F40923606E2D0059D833 /* WorldBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE2F3FB23606E2D0059D833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE2F3E223606E2B0059D833 /* WorldBank */;
+			targetProxy = BAE2F3FA23606E2D0059D833 /* PBXContainerItemProxy */;
+		};
+		BAE2F40623606E2D0059D833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE2F3E223606E2B0059D833 /* WorldBank */;
+			targetProxy = BAE2F40523606E2D0059D833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE2F3EC23606E2B0059D833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE2F3ED23606E2B0059D833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE2F3F123606E2D0059D833 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE2F3F223606E2D0059D833 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE2F40B23606E2D0059D833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE2F40C23606E2D0059D833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE2F40E23606E2D0059D833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DAAF5D0A3D28BF95621E05 /* Pods-WorldBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.WorldBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE2F40F23606E2D0059D833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8E5B56B67416BEA06652E1 /* Pods-WorldBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.WorldBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE2F41123606E2D0059D833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.WorldBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldBank.app/WorldBank";
+			};
+			name = Debug;
+		};
+		BAE2F41223606E2D0059D833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.WorldBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldBank.app/WorldBank";
+			};
+			name = Release;
+		};
+		BAE2F41423606E2D0059D833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.WorldBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldBank;
+			};
+			name = Debug;
+		};
+		BAE2F41523606E2D0059D833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.WorldBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE2F3DE23606E2B0059D833 /* Build configuration list for PBXProject "WorldBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2F40B23606E2D0059D833 /* Debug */,
+				BAE2F40C23606E2D0059D833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE2F40D23606E2D0059D833 /* Build configuration list for PBXNativeTarget "WorldBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2F40E23606E2D0059D833 /* Debug */,
+				BAE2F40F23606E2D0059D833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE2F41023606E2D0059D833 /* Build configuration list for PBXNativeTarget "WorldBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2F41123606E2D0059D833 /* Debug */,
+				BAE2F41223606E2D0059D833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE2F41323606E2D0059D833 /* Build configuration list for PBXNativeTarget "WorldBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2F41423606E2D0059D833 /* Debug */,
+				BAE2F41523606E2D0059D833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE2F3DB23606E2B0059D833 /* Project object */;
+}
